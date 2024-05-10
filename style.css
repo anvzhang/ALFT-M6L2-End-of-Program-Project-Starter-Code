@@ -1,69 +1,9 @@
-.movie {
-    height: 300px;
-}
-
-body {
-    margin: 0;
-    font-family: "Source Sans Pro", Helvetica, Arial, sans-serif;
-    font-weight: 400;
-}
-
-h2 {
-    font-weight: 300;
-    font-size: 28px;
-    text-align: center;
-}
 
 
 
-.movieSelection {
-    padding: 25px 100px;
-    background: #e4a4ee;
-    color: white;
-}
 
-.reviews {
-    text-align: center;
-}
 
-#movieReviews {
-    font-style: italic;
-    font-size: 24px;
-}
 
-.ticketSelection {
-    background: #17d3ff;
-    padding: 25px 100px;
-    color: white;
-    text-align: center;
-}
 
-.tickets {
-    display: flex;
-    justify-content: center;
-}
 
-.ticket {
-    padding: 0 20px;
-    display: flex;
-    align-items: center;
-}
-
-.ticketInput {
-    font-size: 16px;
-    width: 50px;
-    margin: 0 20px;
-    height: 25px;
-    text-align: right;
-}
-
-.checkout {
-    text-align: center;
-    padding-bottom: 100px;
-}
-
-#calculateTotal {
-    font-size: 18px;
-    padding: 10px 20px;
-}
 
