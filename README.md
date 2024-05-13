@@ -13,10 +13,22 @@ Can you help them to update their app?
 * Once you have the movie poster images in your HTML, use CSS to make the posters the same size and use flexbox to align them horizonatally across the page. Make sure each move poster has a unique border.
 
 ### Task 3: Movie Reviews
-* Create an array of movie reviews for each movie. Using a loop and update reviews for each movie to the div with the class `movieReviews`. This loop should run when a user clicks on the movie image.
+* Create an array of movie reviews for each movie.
+* Create a new function, let's call it displayMovieReviews.
+* Inside the displayMovieReviews function:
+  - Select the movieReviews div element using document.querySelector('.movieReviews').
+  - Clear the content of the movieReviews div by setting its innerHTML to an empty string.
+  - Use a for loop to iterate over the movie reviews array.
+    - For each review in the array:
+    - Create a new <p> element using document.createElement('p').
+    - Set the textContent of the <p> element to the review text.
+    - Append the <p> element to the movieReviews div using the appendChild method.
+  - Add a click event listener to each movie image. Inside the event listener function:
+  - Find the index of the clicked movie in the array of movies.
+  - Call the displayMovieReviews function, passing the movie reviews array for the clicked movie as an argument.
 
 ### Task 4: Cost Calculation
-*When the user clicks on the "Calculate Total" button, calculate the total cost based on the number of tickets entered into the input fields: 
+* When the user clicks on the "Calculate Total" button, calculate the total cost based on the number of tickets entered into the input fields: 
 * Create a variable named `child` and set it equal to the number a user types into the input field with the class `numberChild` multiplied by the price of a child ticket ($8)
 * Create a variable named `adult` and set it equal to the number a user types into the input field with the class `numberAdult` multiplied by the price of a child ticket ($12)
 *Create a variable named `total` and set it equal to the variable `adult` + the variable `child`
