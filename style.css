@@ -1,9 +1,69 @@
+body {
+  font-family: "Source Sans Pro", Helvetica, Arial, sans-serif;
+  font-weight: 300;
+  margin: 0%;
+  text-align: center;
+}
 
+.movies {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
 
+.movie {
+  max-height: 300px;
+}
 
+.movieSelection {
+  background-color: #e4a4ee;
+  padding: 25px 100px;
+  color: white;
+}
 
+h2 {
+  font-weight: 400;
+  font-size: 28px;
+  text-align: center;
+}
 
+.movieReviews > p {
+  text-align: center;
+}
 
+.ticketSelection {
+  background-color: #17d3ff;
+  padding: 25px 100px;
+  text-align: center;
+  color: white;
+  display: none;
+}
 
+.tickets {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  column-gap: 50px;
+}
 
+.ticket {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
 
+.ticketInput {
+  max-width: 40px;
+  height: 25px;
+  text-align: right;
+}
+
+.buy {
+  display: none;
+}
+
+.checkout {
+  display: none;
+  margin-bottom: 50px;
+}
